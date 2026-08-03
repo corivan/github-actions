@@ -32,6 +32,9 @@ jobs:
       - name: 检出代码仓库
         uses: actions/checkout@v4
         
+      - name: 安装 Python 依赖
+        run: sudo python3 -m pip install --user -r requirements.txt
+        
       - name: 系统信息
         run: |
           echo "============================================="

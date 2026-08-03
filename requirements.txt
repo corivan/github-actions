@@ -1,0 +1,8 @@
+prettytable
+pypinyin
+pytz
+PyYAML
+r-useragent
+requests
+selenium
+tqdm
